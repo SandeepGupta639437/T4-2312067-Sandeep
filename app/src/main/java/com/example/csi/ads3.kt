@@ -20,7 +20,7 @@ class ads3 : AppCompatActivity() {
         }
         val secondAdsButton = findViewById<Button>(R.id.button)
         secondAdsButton.setOnClickListener{
-            val intent2= Intent(this,home::class.java)
+            val intent2= Intent(this,MainActivity::class.java)
             startActivity(intent2)
         }
     }
